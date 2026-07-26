@@ -2,9 +2,10 @@ import { useState, useEffect, useRef } from 'react'
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
-  'https://nzycarfpfantbkowhnmg.supabase.co',
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im56eWNhcmZwZmFudGJrb3dobm1nIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ5ODEzNzYsImV4cCI6MjEwMDU1NzM3Nn0.Cu-Jhj6hP7IA8pRv0xcRMhvum7IpmDB0QcGeZuUW558'
+  'https://dsscnmckfmcmbojlttah.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRzc2NubWNrZm1jbWJvamx0dGFoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUwOTQ5NjksImV4cCI6MjEwMDY3MDk2OX0.FwjYIj5A9gtlZxo3QyQmjAfV3ZDmvaTUm7hPAEpOHds'
 )
+
 
 const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
